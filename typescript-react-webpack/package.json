@@ -7,15 +7,12 @@
     "start": "start \"\" live-server dist --port=80 --watch && npm run webpack-dev-watch",
     "webpack-dev-watch": "webpack --watch --config webpack.dev.js",
     "webpack-dev": "webpack --config webpack.dev.js",
-    "webpack-prod": "webpack --config webpack.prod.js",
-    "watch-assets": "chokidar \"src/assets/**/*.*\" -c \"make assets\""
+    "webpack-prod": "webpack --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^12.0.7",
-    "chokidar": "^3.0.2",
-    "chokidar-cli": "^2.0.0",
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^4.2.0",
     "live-server": "^1.2.1",
