@@ -1,0 +1,2 @@
+reg add "hkcu\software\microsoft\command processor" /v CompletionChar /d 9 /t REG_DWORD /f
+reg add "hkcu\software\microsoft\command processor" /v PathCompletionChar /d 9 /t REG_DWORD /f
