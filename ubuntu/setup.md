@@ -12,4 +12,23 @@ sudo update-alternatives --config python3
 2
 sudo apt-get install python-is-python3
 python3 -V
+sudo apt install python3-pip
+sudo apt-get install python3.11-venv
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+
+# new terminal to use pipx
+pipx install virtualenv
+
+
+# for a project:
+virtualenv nanoGPTonModal
+source nanoGPTonModal/bin/activate
+
+
+
+
 ```
+## Git
+
+sudo apt-get install git-all
