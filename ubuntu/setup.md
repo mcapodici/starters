@@ -7,16 +7,10 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.11
 
-# Not doing this as it stops terminal working in Ubuntu:
-# Xsudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1
-# Xsudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 2
-# Xsudo update-alternatives --config python3
-# X2
+# !! Don't use update-alternatives with python it will fuck up your shell etc. !!
 
 sudo apt-get install python-is-python3
-python3 -V
 sudo apt install python3-pip
-sudo apt-get install python3.11-venv
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
@@ -29,7 +23,7 @@ python3 -m pip install virtualenv
 virtualenv nanoGPTonModal
 source nanoGPTonModal/bin/activate
 
-
+# todo: if needed I will add stuff about multiple versions of python
 
 
 ```
