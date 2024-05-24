@@ -31,3 +31,7 @@ Connect to database
 \c database_name
 ```
 
+Grant schema (since PG15 - https://stackoverflow.com/questions/67276391/why-am-i-getting-a-permission-denied-error-for-schema-public-on-pgadmin-4)
+```
+GRANT ALL ON SCHEMA public TO user_name;
+```
