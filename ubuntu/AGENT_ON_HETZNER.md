@@ -34,6 +34,12 @@ Verify:
 herdr --version
 ```
 
+Log out of SSH and start new session this way:
+
+```
+herdr --remote you@yourserver
+```
+
 ## 5. Mise
 
 ```
