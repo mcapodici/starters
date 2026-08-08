@@ -33,3 +33,42 @@ Verify:
 ```bash
 herdr --version
 ```
+
+## 5. Mise
+
+```
+curl https://mise.run | sh
+```
+
+Then do the suggested:
+
+```
+echo "eval \"\$(/home/YOUR_USER_NAME/.local/bin/mise activate bash)\"" >> ~/.bashrc
+```
+
+## 6. Node
+
+```
+mise use --global node@26
+```
+
+## 7. Tooling
+
+E.g. atomic https://github.com/bastani-inc/atomic#get-started
+
+```
+npm install -g @bastani/atomic
+atomic
+```
+
+Then
+
+```
+/login
+```
+
+Then watch https://www.youtube.com/live/XPQaoEZa9Y4 to figure out how to use that!
+
+
+
+
